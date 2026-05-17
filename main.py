@@ -72,7 +72,7 @@ while game:
     if finish != True:
         window.fill(back)
         racket1.update_l()
-        racket2.update_r
+        racket2.update_r()
         ball.rect.x += speed_x
         ball.rect.y += speed_y
 
